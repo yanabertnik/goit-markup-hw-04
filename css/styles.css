@@ -156,10 +156,6 @@ img {
   background-size: contain;
 }
 
-.contact-link:hover .contact-item-icon,
-.contact-link:focus .contact-item-icon {
-  fill: var(--accent-color);
-}
 /* --------------Баннер---------------- */
 
 .banner {
@@ -356,11 +352,7 @@ img {
 .team-icon-link:hover,
 .team-icon-link:focus {
   background-color: var(--accent-color);
-}
-
-.team-icon-link:hover .team-icon-icon,
-.team-icon-link:focus .team-icon-icon {
-  fill: var(--main-title-color);
+  color: var(--main-title-color);
 }
 
 /* --------------Постійні клієнти---------------- */
@@ -406,13 +398,9 @@ img {
   background-size: 200px;
 }
 
-.clients-item-link:hover .clients-icon-icon,
-.clients-item-link:focus .clients-icon-icon {
-  fill: var(--accent-color);
-}
-
 .clients-item-link:hover,
 .clients-item-link:focus {
+  color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 /* --------------Portfolio---------------- */
