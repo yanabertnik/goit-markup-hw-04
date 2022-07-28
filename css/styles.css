@@ -227,18 +227,17 @@ img {
 .about-icon-container {
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
   background-color: var(--second-background-color);
   border-radius: 4px;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-item-icon {
   width: 70px;
   height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .about-title {
@@ -333,6 +332,7 @@ img {
 .team-icon-item {
   width: 44px;
   height: 44px;
+  background-position: center;
 }
 
 .team-icon-link {
@@ -385,7 +385,6 @@ img {
   height: 100%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -457,7 +456,8 @@ img {
   display: inline-block;
 }
 
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -534,11 +534,10 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .social {
-  display: block;
-  padding-top: 12px;
   margin-left: 70px;
 }
 
